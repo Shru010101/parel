@@ -1,0 +1,71 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(13, 13, 163);
+    z-index: 1000; 
+}
+
+nav img {
+    position: relative;
+    left: 180px;
+    padding: 20px 0;
+    height: 90px;
+    width: 400px;
+}
+
+
+
+main .co{
+    width: 100%;
+}
+ li{
+    display: flex;
+}
+.middle{
+    
+    display: flex;
+    padding: 20px 100px;
+
+}
+
+.contact-info{
+    padding: 0px 20px;
+   }
+
+li{
+ padding: 10px ;
+}
+.form{
+    background-color: rgb(222, 154, 44);
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.sec-title{
+    padding: 20px 20px;
+
+}
+#contact-form{
+    /* padding: 30px 40px; */
+    padding: 20px;
+    /* text-align: center; */
+}
+.form-group{
+  padding: 5px 20px;
+}
+.he{
+    width: 280px;
+}
+.form-group .btn{
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}

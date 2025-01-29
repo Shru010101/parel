@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  </head>
+  <body>
+    <div class="head">
+    <nav>
+      <img src="/images/DTA logo 2015 white.png" alt="" />
+      
+    </nav>
+
+    <main>
+        <img src="/images/cover.jpg" alt="" class="co">
+    </main>
+
+    <section class="middle">
+        <div class="title">
+            <h2>Attend a FREE Future & Options Trading Class & Learn</h2>
+            <ul class="contact-info">
+                <li>
+                    <span class="icon fa fa-check-square"></span>
+                    <p><strong>Mechanics of Options Trading with Directional Opportunities in the derivatives market.</strong></p>
+                    
+                </li>
+                <li>
+                    <span class="icon fa fa-check-square"></span>
+                    <p><strong>Using Options to generate income with Hedging Strategies.</strong></p>
+                    
+                </li>
+                <li>
+                    <span class="icon fa fa-check-square"></span>
+                    <p><strong>Introduction to our Quantitative market data to analyze options premium with respect  <br>to price, open interest, volume & delivery.</strong></p>
+                    
+                </li>
+                <li>
+                    <span class="icon fa fa-check-square"></span>
+                    <p><strong>Use of Technical Charting for Intraday, Swing & Positional Trading.</strong></p>
+                    
+                </li>
+                <li>
+                    <span class="icon fa fa-check-square"></span>
+                    <p><strong>Practical Implementation of LIVE Options Strategies on our proprietary software.</strong></p>
+                    
+                </li>
+            </ul>
+        </div>
+
+        <div class="form">
+            <div class="contact-form">
+              <div class="sec-title">
+                <h2 style="font-size:28px;">Register For Free Seminar</h2>
+                </div>
+                            
+                <form method="post" action="sendemail.php" id="contact-form">
+                <div class="row">
+                    <div class="form-group">
+                        <input type="text" name="username" placeholder="Name" class="he" >
+                    </div>
+									
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Email" class="he">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" name="phone" placeholder="Phone" class="he">
+                    </div>
+                    
+                    <div class="form-group">
+						<select name="why" placeholder="Why Are You Trading?" class="he">
+							<option value="">Why Are You Trading?</option>
+							<option value="Secondary Income">Secondary Income</option>
+							<option value="Full Time Career">Full Time Career</option>
+							<option value="Wealth Building">Wealth Building</option>
+							<option value="Loss Recovery">Loss Recovery</option>
+							<option value="Not Trading">Not Trading</option>
+						</Select>	    
+                    </div>
+                    <div class="form-group">
+						<select name="experience" placeholder="Your Trading Experience" class="he">
+							<option value="">Your Trading Experience?</option>
+							<option value="Beginner">Beginner</option>
+							<option value="Intermediate">Intermediate</option>
+							<option value="Advance">Advance</option>
+						</Select>	    
+                    </div>
+									
+					<div class="form-group">
+						<select name="tradinginfo" placeholder="Currently Trading in" class="he">
+							<option value="">Currently Trading in?</option>
+							<option value="Cash">Cash</option>
+							<option value="Future">Future</option>
+							<option value="Options">Options</option>
+							<option value="All">All</option>
+						</Select>	    
+                    </div>
+                    <div class="form-group">
+						<select name="capital" placeholder="Currently Trading in" class="he">
+							<option value="">Your Trading/Investment Capital?</option>
+							<option value="0 to 50000">0 to 50000</option>
+							<option value="50000 to 100000">50000 to 100000</option>
+							<option value="100000 to 300000">100000 to 300000</option>
+							<option value="300000 & Above">300000 & Above</option>
+						</Select>	    
+                    </div>
+									
+					<div class="form-group">
+					<select name="city" id="city" placeholder="Select Your City" class="he">
+						<option value="">Select Your City</option>
+						<option value="Bengaluru">Bengaluru</option>
+						<option value="Mumbai">Mumbai</option>
+						<option value="Pune">Pune</option>
+					</Select>	    
+                    </div>
+									
+				<div class="form-group" id="dates">
+					<select name="slot-bengaluru" placeholder="Select Your Slot" class="he">
+						<option value="">Select Date & Time</option>
+										
+						<option value="Saturday, 25th January at 4:00pm">Saturday, 25th January at 4:00pm</option>
+						<option value="Sunday, 26th January at 4:00pm">Sunday, 26th January at 4:00pm</option>
+					</Select>	    
+                </div>
+									
+				<div class=" form-group" id="dates2">
+					<select name="slot-mumbai" placeholder="Select Your Slot" class="he">
+						<option value="">Select Date, Time</option>
+												
+						<option value="Saturday, 1st February at 4:00pm Lower Parel">Saturday, 1st February at 4:00pm Lower Parel</option>
+										
+										
+					</Select>	    
+                </div>
+									
+				<div class=" form-group" id="dates3">
+				<select name="slot-pune" placeholder="Select Your Slot" required="">
+						<option value="">Select Date, Time</option>
+											
+						<option value="Saturday, 1st February at 4:00pm" disabled>Saturday, 1st February at 4:00pm (Slot Full)</option>
+						<option value="Sunday, 2nd February at 10:00am">Sunday, 2nd February at 10:00am</option>
+					</Select>	   
+                </div>
+									
+				<div class=" form-group">
+					<select name="source" placeholder="How Did You Find Us?" required="" >
+						<option value="">How Did You Find Us?</option>
+						<option value="Email">Email</option>
+						<option value="Google">Google</option>
+						<option value="SMS">SMS</option>
+						<option value="Website">Website</option>
+						<option value="Facebook">Facebook</option>
+						<option value="WhatsApp">WhatsApp</option>
+						<option value="Other">Other</option>
+					</Select>	    
+                </div>
+									
+				<div class=" form-group" style="color:#fff;">
+                    <input type="checkbox" name="auth" style="color:#fff;"> I allow DTA representative to contact me through phone calls, SMS, WhatsApp, and email.
+                </div>
+
+
+                <div class="form-group">
+                    <button class="btn" type="submit">Register Now!</button>
+                </div>
+                </div>
+                </form>
+             </div>
+        </div>
+        
+    </section>
+</div>
+  </body>
+</html>
